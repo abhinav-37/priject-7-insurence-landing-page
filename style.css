@@ -1,0 +1,129 @@
+h1{
+  font-family: 'Abril Fatface', cursive;
+}
+.ti-img{
+  position:absolute;
+  left:75rem;
+  z-index: 1;
+  width: 20rem;
+}
+.pattern-left{
+  position: absolute;
+  z-index: 1;
+  top: 30rem;
+}
+.info-pattern{
+  position: absolute;
+  left: 46rem;
+  bottom: 0.4rem;
+  width:25rem;
+}
+.navbar{
+  margin:0 12rem 0;
+}
+#title{
+  background-color: #39375b;
+  color: white;
+  padding: 0 0 3rem;
+}
+#features{
+  padding: 12rem 12rem 8rem;
+  text-align: left;
+}
+#info{
+  position: relative;
+  background-color: #39375b;
+  margin: 3rem 12rem 5rem;
+  padding: 3rem 3rem 3rem;
+  color: white;
+}
+#contact{
+  padding: 3rem 12rem 5rem;
+  background-color: #f6f5f5;
+}
+.btn-outline-light{
+  border-radius: 0;
+  margin: 2rem 0 0 12rem;
+}
+.features-h1{
+  padding: 4rem 0 4rem;
+}
+.title-h1{
+  font-size: 4.5rem;
+}
+.info-h1{
+  font-size: 3.5rem;
+}
+
+
+.title-column{
+  margin:0 45rem 0 0;
+  padding:10rem 3rem 8rem 10rem;
+}
+.title-image{
+  position: absolute;
+  width: 32rem;
+  height: auto;
+  left:50rem;
+  top: 15rem;
+
+}
+
+.btn-outline-dark{
+  border-radius:0;
+  border: 0;
+  padding: 13px 5px;
+}
+.contact-icons{
+  text-align: right;
+
+}
+.end-icons{
+  padding: 0.5rem;
+}
+.contact-up{
+  padding: 0 0 3rem;
+}
+@media(max-width:500px){
+  /* #title{ */
+
+  .title-h1{
+    font-size: 3.5rem;
+  }
+  #info{
+    margin: 3rem 0 5rem;
+    text-align: center;
+  }
+  .navbar{
+    margin: 0;
+  }
+  .title-column{
+    margin:0;
+    padding:5rem 2rem 0 2rem;
+
+  }
+  #features{
+    padding: 12rem 0rem 8rem;
+    text-align: center;
+  }
+  .title-image{
+    display: none;
+  }
+  #contact{
+    padding: 3rem 0 5rem;
+    text-align:center;
+  }
+  .contact-icons{
+    text-align: center;
+  }
+  .pattern-left{
+    display: none;
+  }
+  .info-pattern{
+    display: none;
+  }
+  .ti-img{
+    display: none;
+
+
+}
